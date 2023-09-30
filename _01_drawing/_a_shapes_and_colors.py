@@ -11,7 +11,7 @@ if __name__ == '__main__':
     a.shape('turtle')
     a.pensize(10)
     # Set your turtle's speed using .speed(2)
-    a.speed(1000000000000000000000)
+    a.speed(11)
     a.shape('arrow')
     # Set your turtle's color using .color('green') and .pencolor('blue')
     a.color('blue')
