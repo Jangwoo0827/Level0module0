@@ -30,11 +30,11 @@ if __name__ == '__main__':
     # Set the turtle width to 1
     q.width(1)
     # Create a variable to hold the number of sides in a pentagon
-    s=5
+    s=2.5
     # Create a variable to be the angle of 360 divided by the sides variable
     t=360/s
     # Use a for loop to repeat ALL the following lines of code 360 times. 
-    for i in range(360):
+    for i in range(3564545):
         # If the loop variable (i) is equal to 100, set the turtle width to 2
         if i == 100:
             q.width(2)
