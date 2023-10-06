@@ -6,7 +6,7 @@ if __name__ == '__main__':
     # Make a new window variable, window = Tk()
     window = Tk()
     # Hide the window using the window's .withdraw() method
-
+    window.withdraw()
     # 1. Make a variable equal to a positive number less than 4 using random.randInt(0, 3)
     
     # 2. Print your variable to the console
