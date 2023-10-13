@@ -14,8 +14,7 @@ if __name__ == '__main__':
     # 3. Code a for loop to run steps 4-10, 10 times
     for q in range(10):
         # 4. Ask the user for a guess using a pop-up window, and save their response
-        e = simpledialog.askstring(title=None, prompt="What is the number?")
-        print(r)
+        e = simpledialog.askinteger(title=None, prompt="What is the number?")
         # 5. If the guess is correct
         if e == r:
             # 6. Win. Use 'sys.exit(0)' to end the program
@@ -30,5 +29,5 @@ if __name__ == '__main__':
         if e > r:
             messagebox.showinfo(title=None, message="low")
     #11. Outside of the loop, tell the user they lost
-        messagebox.showinfo(title=None, message="you lost")
+    messagebox.showinfo(title=None, message="you lost")
     window.mainloop()
